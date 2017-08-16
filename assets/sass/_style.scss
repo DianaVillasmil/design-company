@@ -13,6 +13,7 @@ header {
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.5px;
+    z-index: 3;
 
     & a.text{
         color: white;
@@ -189,4 +190,9 @@ header {
             width: 100%;
         }  
     }
+}
+
+.seventh-section {
+    background-image: url("../../img/features_bg2-min.jpg");
+    padding: 20px;
 }
