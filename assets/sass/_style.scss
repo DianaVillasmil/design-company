@@ -78,7 +78,7 @@ header {
 
      &  hr {
         border-top: 1px solid #73baae;
-        width: 169px;
+        width: 170px;
         margin: 0 auto;
     }
     
@@ -170,11 +170,23 @@ header {
 
 .fourth-section {
 
-    & .box-title hr {
-        border-bottom: 2px dashed #4bceb4; 
-        border-left:none; 
-        border-right:none; 
-        height: 6px; 
- 
+    & h2 {
+        text-align: center;
+    }
+    & hr {
+            border-top: 1px solid #4bceb4;             
+            width: 170px;   
+            margin: 0 auto;
+    }
+
+    & img {
+        width: 100%;
+    }
+
+    & .information {
+        & hr {            
+            border-top: 2px dashed #4bceb4; 
+            width: 100%;
+        }  
     }
 }
